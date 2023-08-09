@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 520px;
+  height: 400px;
+}
+.result-container {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 22px;
+  box-sizing: border-box;
+}
+.result-title {
+  font-size: 18px;
+  color: hsl(241, 100%, 89%);
+}
+.score {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.score-span {
+  font-size: 33px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+.message-result {
+  font-size: 16px;
+  color: hsl(241, 100%, 89%);
+}
+.summary-container {
+  width: 50%;
+}
+.summary-title {
+  font-size: 18px;
+}
