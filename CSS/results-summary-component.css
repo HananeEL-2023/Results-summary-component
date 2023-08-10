@@ -140,3 +140,27 @@
     hsl(241, 81%, 54%)
   );
 }
+@media screen and (max-width: 425px) {
+  .parent-container {
+    display: flex;
+    overflow: visible;
+    height: 765px;
+    width: 375px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 374px;
+    border-radius: 0px;
+  }
+  .result-container {
+    width: 100%;
+    height: 50%;
+    border-radius: 0px 0px 25px 25px;
+  }
+  .summary-container {
+    width: 100%;
+    height: 50%;
+  }
+}
