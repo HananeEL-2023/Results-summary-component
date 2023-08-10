@@ -77,18 +77,20 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 70%;
+  height: 80%;
 }
 .summary-title {
   font-size: 18px;
+  padding-top: 13px;
 }
 .background-width {
   border-radius: 4px;
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 10px 5px;
+  padding: 6px 5px;
   border-radius: 5px;
 }
 .summary-result1 {
